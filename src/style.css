@@ -1,70 +1,40 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+	margin: 0;
 }
-ol, ul {
-	list-style: none;
+
+:root {
+	--logo-gold: #886E42;
 }
-blockquote, q {
-	quotes: none;
+
+@font-face {
+	font-family: "Philosopher";
+	src: url('fonts/Philosopher/Philosopher-Regular.ttf'), url('fonts/Philosopher/Philosopher-Bold.ttf'), url('fonts/Philosopher/Philosopher-BoldItalic.ttf'), url('fonts/Philosopher/Philosopher-Italic.ttf')
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-    border-collapse: collapse;
-	border-spacing: 0;
+
+@font-face {
+	font-family: "Monteserrat";
+	src: url('fonts/Montserrat/Montserrat-VariableFont_wght.ttf'), url('fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
 }
 
 #container {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-	flex: 1;
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
 }
 
 #container > * {
-    border: 1px solid red;
     width: 100%;
 }
 
 #container > header {
-	height: 5vw;
-}
-
-#container > footer {
-	height: 5vw;
+	display: grid;
+    grid-template-columns: repeat(3,1fr);
+	padding: 1rem 2rem;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--logo-gold);
+	font-family: "Monteserrat";
+	width: auto;
 }
 
 .content {
@@ -72,6 +42,53 @@ table {
 	display: flex;
 	flex-direction: column;
 }
+
+ul {
+	list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+	gap: 20px;
+    justify-content: center;
+}
+
+ul li {
+	cursor: pointer;
+}
+
+.logo {
+	font-family: "Philosopher";
+	font-style: italic;
+	font-size: 5vh;
+	font-weight: 800;
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.location, ul {
+	font-style: normal;
+	font-family: "Monteserrat";
+	font-weight: 600;
+	font-size: 1.5vh;
+}
+
+.directions {
+	background-color: var(--logo-gold);
+    color: #fff;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    font-size: 1.5vh;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    justify-self: end;
+}
+
 .unique {
 	flex: 1;
 }
