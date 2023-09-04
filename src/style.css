@@ -94,8 +94,9 @@ ul li {
 }
 
 .imgDisplay {
-    background-image: url("./restaurantInterior.jpg");
+    background-image: url("./images/restaurant2.jpg");
     height: 40vw;
     background-size: cover;
     background-position-y: center;
+	transition:all 0.5s ease-in-out;
 }
