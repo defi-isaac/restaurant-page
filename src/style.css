@@ -24,6 +24,7 @@ body {
 
 #container > * {
     width: 100%;
+	font-family: "Monteserrat";
 }
 
 #container > header {
@@ -93,10 +94,31 @@ ul li {
 	flex: 1;
 }
 
+.unique {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.socialMedia img {
+	width: 20px;
+	height: 20px;
+	background-color: var(--logo-gold);
+	border-radius: 40%;
+	margin: 10px;
+	padding: 7px;
+}
+
 .imgDisplay {
     background-image: url("./images/restaurant2.jpg");
     height: 40vw;
     background-size: cover;
     background-position-y: center;
 	transition:all 0.5s ease-in-out;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1vh;
 }

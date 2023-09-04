@@ -17,8 +17,14 @@ export function pageLoad() {
     content.classList.add('content');
     const imgDisplay = document.createElement('div');
     imgDisplay.classList.add('imgDisplay', 'restaurant');
-    const socialMedia = document.createElement('div')
+    const socialMedia = document.createElement('div');
     socialMedia.classList.add('socialMedia', 'unique');
+    const ig = document.createElement('img');
+    const fb = document.createElement('img');
+    const twitter = document.createElement('img');
+    const igContainer = document.createElement('a');
+    const fbContainer = document.createElement('a');
+    const xContainer = document.createElement('a');
     const footer = document.createElement('footer');
 
     logo.textContent = 'NOBU';
@@ -38,6 +44,18 @@ export function pageLoad() {
     }
 
     setInterval(changeBg, 7000);
+    
+    ig.src = '../src/images/instagram.svg';
+    igContainer.href = 'https://www.instagram.com/nobuaustralia/';
+    igContainer.target = '_blank';
+    fb.src = '../src/images/facebook.svg';
+    fbContainer.href = 'https://facebook.com/';
+    fbContainer.target = '_blank';
+    twitter.src = '../src/images/logo-x.svg';
+    xContainer.href = 'https://twitter.com/Defi_Isaac';
+    xContainer.target = '_blank';
+
+    footer.textContent = '© Defi Isaac Github. Inspired by Nobu Sydney PASTPRESENTFUTURE'
 
     container.appendChild(header);
     container.appendChild(content);
@@ -51,4 +69,11 @@ export function pageLoad() {
     header.appendChild(directions);
     content.appendChild(imgDisplay);
     content.appendChild(socialMedia);
+    socialMedia.appendChild(igContainer);
+    socialMedia.appendChild(fbContainer);
+    socialMedia.appendChild(xContainer);
+    igContainer.appendChild(ig);
+    fbContainer.appendChild(fb);
+    xContainer.appendChild(twitter);
+
 }
