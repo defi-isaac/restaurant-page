@@ -1,9 +1,11 @@
 import {imgDisplay, subContent} from './layout.js';
 
 export function pageLoad() {
+
+    subContent.innerHTML = '';
     
     imgDisplay.classList.add('restaurant');
-    subContent.classList.add('socialMedia');
+    subContent.className = 'unique socialMedia';
     const ig = document.createElement('img');
     const fb = document.createElement('img');
     const twitter = document.createElement('img');
@@ -13,14 +15,17 @@ export function pageLoad() {
 
     function changeBg() {
         const restaurantImg = ['url("../src/images/restaurant1.jpg")', 'url("../src/images/restaurant2.jpg")'];
-        if (imgDisplay.style.backgroundImage == 'url("../src/images/restaurant1.jpg")') {
-            imgDisplay.style.backgroundImage = 'url("../src/images/restaurant2.jpg")'
-        } else {
-            imgDisplay.style.backgroundImage = 'url("../src/images/restaurant1.jpg")';
+        if (imgDisplay.classList.contains('restaurant')) {
+            if (imgDisplay.style.backgroundImage == 'url("../src/images/restaurant1.jpg")') {
+                imgDisplay.style.backgroundImage = 'url("../src/images/restaurant2.jpg")'
+            } else {
+                imgDisplay.style.backgroundImage = 'url("../src/images/restaurant1.jpg")';
+            }
         }
     }
 
     setInterval(changeBg, 7000);
+    imgDisplay.style.backgroundImage = 'url("../src/images/restaurant1.jpg"';
     
     ig.src = '../src/images/instagram.svg';
     igContainer.href = 'https://www.instagram.com/nobuaustralia/';

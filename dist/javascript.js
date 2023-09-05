@@ -1,3 +1,4 @@
+"use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -6,9 +7,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-/******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
+(self["webpackChunkrestaurant_page"] = self["webpackChunkrestaurant_page"] || []).push([["javascript"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
 /*!*************************************************************!*\
@@ -16,7 +15,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-Regular.ttf */ \"./src/fonts/Philosopher/Philosopher-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-Bold.ttf */ \"./src/fonts/Philosopher/Philosopher-Bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-BoldItalic.ttf */ \"./src/fonts/Philosopher/Philosopher-BoldItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-Italic.ttf */ \"./src/fonts/Philosopher/Philosopher-Italic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Montserrat/Montserrat-VariableFont_wght.ttf */ \"./src/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf */ \"./src/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n\tmargin: 0;\n}\n\n:root {\n\t--logo-gold: #886E42;\n}\n\n@font-face {\n\tfont-family: \"Philosopher\";\n\tsrc: url(${___CSS_LOADER_URL_REPLACEMENT_0___}), url(${___CSS_LOADER_URL_REPLACEMENT_1___}), url(${___CSS_LOADER_URL_REPLACEMENT_2___}), url(${___CSS_LOADER_URL_REPLACEMENT_3___})\n}\n\n@font-face {\n\tfont-family: \"Monteserrat\";\n\tsrc: url(${___CSS_LOADER_URL_REPLACEMENT_4___}), url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n}\n\n#container {\n    height: 100vh;\n    display: grid;\n    grid-template-rows: 1fr 10fr 1fr;\n}\n\n#container > * {\n    width: 100%;\n\tfont-family: \"Monteserrat\";\n}\n\n#container > header {\n\tdisplay: grid;\n    grid-template-columns: repeat(3,1fr);\n\tpadding: 1rem 2rem;\n\talign-items: center;\n\tjustify-content: space-between;\n\tcolor: var(--logo-gold);\n\tfont-family: \"Monteserrat\";\n\twidth: auto;\n}\n\n.content {\n\tflex: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n\nul {\n\tlist-style-type: none;\n    display: flex;\n    padding: 0;\n    margin: 0;\n\tgap: 20px;\n    justify-content: center;\n}\n\nul li {\n\tcursor: pointer;\n\tdisplay: flex;\n\talign-items: center;\n}\n\n.logo {\n\tfont-family: \"Philosopher\";\n\tfont-style: italic;\n\tfont-size: 5vh;\n\tfont-weight: 800;\n\tdisplay: flex;\n\tgap: 2rem;\n\talign-items: center;\n\tflex-wrap: wrap;\n}\n\n.location, ul {\n\tfont-style: normal;\n\tfont-family: \"Monteserrat\";\n\tfont-weight: 600;\n\tfont-size: 1.5vh;\n\tcursor: pointer;\n}\n\n.directions {\n\tbackground-color: var(--logo-gold);\n    color: #fff;\n    height: 60%;\n    display: flex;\n    align-items: center;\n    padding: 0.3rem 1rem;\n    font-size: 1.5vh;\n    font-weight: 600;\n    border-radius: 0.5rem;\n    cursor: pointer;\n    text-decoration: none;\n    justify-self: end;\n}\n\n.unique {\n\tflex: 1;\n\tdisplay: flex;\n}\n\n.socialMedia {\n\tjustify-content: flex-end;\n}\n\n.menu {\n\tflex-direction: column;\n    color: var(--logo-gold);\n    align-items: center;\n}\n\n.socialMedia img {\n\twidth: 20px;\n\theight: 20px;\n\tbackground-color: var(--logo-gold);\n\tborder-radius: 40%;\n\tmargin: 10px;\n\tpadding: 7px;\n}\n\n.imgDisplay {\n    height: 40vw;\n    background-size: cover;\n    background-position-y: center;\n\ttransition: all 0.5s ease-in-out;\n}\n\nfooter {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tfont-size: 1vh;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-Regular.ttf */ \"./src/fonts/Philosopher/Philosopher-Regular.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-Bold.ttf */ \"./src/fonts/Philosopher/Philosopher-Bold.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-BoldItalic.ttf */ \"./src/fonts/Philosopher/Philosopher-BoldItalic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Philosopher/Philosopher-Italic.ttf */ \"./src/fonts/Philosopher/Philosopher-Italic.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Montserrat/Montserrat-VariableFont_wght.ttf */ \"./src/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf */ \"./src/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);\nvar ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);\nvar ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n\tmargin: 0;\n}\n\n:root {\n\t--logo-gold: #886E42;\n}\n\n@font-face {\n\tfont-family: \"Philosopher\";\n\tsrc: url(${___CSS_LOADER_URL_REPLACEMENT_0___}), url(${___CSS_LOADER_URL_REPLACEMENT_1___}), url(${___CSS_LOADER_URL_REPLACEMENT_2___}), url(${___CSS_LOADER_URL_REPLACEMENT_3___})\n}\n\n@font-face {\n\tfont-family: \"Monteserrat\";\n\tsrc: url(${___CSS_LOADER_URL_REPLACEMENT_4___}), url(${___CSS_LOADER_URL_REPLACEMENT_5___});\n}\n\n#container {\n    height: 100vh;\n    display: grid;\n    grid-template-rows: 1fr 10fr 1fr;\n}\n\n#container > * {\n    width: 100%;\n\tfont-family: \"Monteserrat\";\n}\n\n#container > header {\n\tdisplay: grid;\n    grid-template-columns: repeat(3,1fr);\n\tpadding: 1rem 2rem;\n\talign-items: center;\n\tjustify-content: space-between;\n\tcolor: var(--logo-gold);\n\tfont-family: \"Monteserrat\";\n\twidth: auto;\n}\n\n.content {\n\tflex: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n\nul {\n\tlist-style-type: none;\n    display: flex;\n    padding: 0;\n    margin: 0;\n\tgap: 20px;\n    justify-content: center;\n}\n\nul li {\n\tcursor: pointer;\n\tdisplay: flex;\n\talign-items: center;\n}\n\n.logo {\n\tfont-family: \"Philosopher\";\n\tfont-style: italic;\n\tfont-size: 5vh;\n\tfont-weight: 800;\n\tdisplay: flex;\n\tgap: 2rem;\n\talign-items: center;\n\tflex-wrap: wrap;\n}\n\n.location, ul {\n\tfont-style: normal;\n\tfont-family: \"Monteserrat\";\n\tfont-weight: 600;\n\tfont-size: 1.5vh;\n\tcursor: pointer;\n}\n\n.directions {\n\tbackground-color: var(--logo-gold);\n    color: #fff;\n    height: 60%;\n    display: flex;\n    align-items: center;\n    padding: 0.3rem 1rem;\n    font-size: 1.5vh;\n    font-weight: 600;\n    border-radius: 0.5rem;\n    cursor: pointer;\n    text-decoration: none;\n    justify-self: end;\n}\n\n.unique {\n\tflex: 1;\n\tdisplay: flex;\n}\n\n.socialMedia {\n\tjustify-content: flex-end;\n}\n\n.socialMedia img {\n\twidth: 20px;\n\theight: 20px;\n\tbackground-color: var(--logo-gold);\n\tborder-radius: 40%;\n\tmargin: 10px;\n\tpadding: 7px;\n}\n\n.imgDisplay {\n    height: 40vw;\n    background-size: cover;\n    background-position-y: center;\n\ttransition:all 0.5s ease-in-out;\n}\n\nfooter {\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tfont-size: 1vh;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -146,7 +145,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   pageLoad: () => (/* binding */ pageLoad)\n/* harmony export */ });\n/* harmony import */ var _layout_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout.js */ \"./src/layout.js\");\n\n\nfunction pageLoad() {\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.innerHTML = '';\n    \n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.classList.add('restaurant');\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.className = 'unique socialMedia';\n    const ig = document.createElement('img');\n    const fb = document.createElement('img');\n    const twitter = document.createElement('img');\n    const igContainer = document.createElement('a');\n    const fbContainer = document.createElement('a');\n    const xContainer = document.createElement('a');\n\n    function changeBg() {\n        const restaurantImg = ['url(\"../src/images/restaurant1.jpg\")', 'url(\"../src/images/restaurant2.jpg\")'];\n        if (_layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.classList.contains('restaurant')) {\n            if (_layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage == 'url(\"../src/images/restaurant1.jpg\")') {\n                _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/restaurant2.jpg\")'\n            } else {\n                _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/restaurant1.jpg\")';\n            }\n        }\n    }\n\n    setInterval(changeBg, 7000);\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/restaurant1.jpg\"';\n    \n    ig.src = '../src/images/instagram.svg';\n    igContainer.href = 'https://www.instagram.com/nobuaustralia/';\n    igContainer.target = '_blank';\n    fb.src = '../src/images/facebook.svg';\n    fbContainer.href = 'https://facebook.com/';\n    fbContainer.target = '_blank';\n    twitter.src = '../src/images/logo-x.svg';\n    xContainer.href = 'https://twitter.com/Defi_Isaac';\n    xContainer.target = '_blank';\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(igContainer);\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(fbContainer);\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(xContainer);\n    igContainer.appendChild(ig);\n    fbContainer.appendChild(fb);\n    xContainer.appendChild(twitter);\n\n}\n\n//# sourceURL=webpack://restaurant-page/./src/initial.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   pageLoad: () => (/* binding */ pageLoad)\n/* harmony export */ });\n/* harmony import */ var _layout_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout.js */ \"./src/layout.js\");\n\n\nfunction pageLoad() {\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.innerHTML = '';\n    \n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.classList.add('restaurant');\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.classList.add('socialMedia');\n    const ig = document.createElement('img');\n    const fb = document.createElement('img');\n    const twitter = document.createElement('img');\n    const igContainer = document.createElement('a');\n    const fbContainer = document.createElement('a');\n    const xContainer = document.createElement('a');\n\n    function changeBg() {\n        const restaurantImg = ['url(\"../src/images/restaurant1.jpg\")', 'url(\"../src/images/restaurant2.jpg\")'];\n        if (_layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.classList.contains('restaurant')) {\n            if (_layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage == 'url(\"../src/images/restaurant1.jpg\")') {\n                _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/restaurant2.jpg\")'\n            } else {\n                _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/restaurant1.jpg\")';\n            }\n        }\n    }\n\n    setInterval(changeBg, 7000);\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/restaurant1.jpg\"';\n    \n    ig.src = '../src/images/instagram.svg';\n    igContainer.href = 'https://www.instagram.com/nobuaustralia/';\n    igContainer.target = '_blank';\n    fb.src = '../src/images/facebook.svg';\n    fbContainer.href = 'https://facebook.com/';\n    fbContainer.target = '_blank';\n    twitter.src = '../src/images/logo-x.svg';\n    xContainer.href = 'https://twitter.com/Defi_Isaac';\n    xContainer.target = '_blank';\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(igContainer);\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(fbContainer);\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(xContainer);\n    igContainer.appendChild(ig);\n    fbContainer.appendChild(fb);\n    xContainer.appendChild(twitter);\n\n}\n\n//# sourceURL=webpack://restaurant-page/./src/initial.js?");
 
 /***/ }),
 
@@ -166,7 +165,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menuPage: () => (/* binding */ menuPage)\n/* harmony export */ });\n/* harmony import */ var _layout_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout.js */ \"./src/layout.js\");\n\n\nfunction menuPage() {\n    \n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/food.avif\")';\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.classList.replace('restaurant', 'food');\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.innerHTML = '';\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.className = 'unique menu';\n\n    const entreeList = document.createElement('div');\n    entreeList.classList.add('entree');\n    const entreeTitle = document.createElement('h1');\n    entreeTitle.textContent = 'ENTREE';\n    const mainList = document.createElement('div');\n    mainList.classList.add('main');\n    const mainTitle = document.createElement('h1');\n    mainTitle.textContent = 'MAIN';\n    const dessertList = document.createElement('div');\n    dessertList.classList.add('dessert');\n    const dessertTitle = document.createElement('h1');\n    dessertTitle.textContent = 'DESSERT';\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.append(entreeList, mainList, dessertList);\n    entreeList.append(entreeTitle);\n    mainList.append(mainTitle);\n    dessertList.append(dessertTitle);\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menuPage: () => (/* binding */ menuPage)\n/* harmony export */ });\n/* harmony import */ var _layout_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./layout.js */ \"./src/layout.js\");\n\n\nfunction menuPage() {\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.style.backgroundImage = 'url(\"../src/images/food.avif\")';\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.imgDisplay.classList.replace('restaurant', 'food');\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.innerHTML = '';\n\n    const menu = document.createElement('div');\n    menu.classList.add('menu');\n\n    _layout_js__WEBPACK_IMPORTED_MODULE_0__.subContent.appendChild(menu);\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -240,148 +239,9 @@ eval("module.exports = __webpack_require__.p + \"93c7d8b5efe3f355f3ca.ttf\";\n\n
 
 /***/ })
 
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
-/******/ 		if (cachedModule !== undefined) {
-/******/ 			return cachedModule.exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nc = undefined;
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
-/******/ 	
-/******/ })()
-;
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
+/******/ }
+]);

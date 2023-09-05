@@ -75,6 +75,7 @@ ul li {
 	font-family: "Monteserrat";
 	font-weight: 600;
 	font-size: 1.5vh;
+	cursor: pointer;
 }
 
 .directions {
@@ -94,11 +95,17 @@ ul li {
 
 .unique {
 	flex: 1;
+	display: flex;
 }
 
-.unique {
-	display: flex;
+.socialMedia {
 	justify-content: flex-end;
+}
+
+.menu {
+	flex-direction: column;
+    color: var(--logo-gold);
+    align-items: center;
 }
 
 .socialMedia img {
@@ -111,11 +118,10 @@ ul li {
 }
 
 .imgDisplay {
-    background-image: url("./images/restaurant2.jpg");
     height: 40vw;
     background-size: cover;
     background-position-y: center;
-	transition:all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 footer {
