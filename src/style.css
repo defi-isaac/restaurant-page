@@ -55,6 +55,8 @@ ul {
 
 ul li {
 	cursor: pointer;
+	display: flex;
+	align-items: center;
 }
 
 .logo {
