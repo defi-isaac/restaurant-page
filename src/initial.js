@@ -37,9 +37,7 @@ export function pageLoad() {
     xContainer.href = 'https://twitter.com/Defi_Isaac';
     xContainer.target = '_blank';
 
-    subContent.appendChild(igContainer);
-    subContent.appendChild(fbContainer);
-    subContent.appendChild(xContainer);
+    subContent.append(igContainer, fbContainer, xContainer);
     igContainer.appendChild(ig);
     fbContainer.appendChild(fb);
     xContainer.appendChild(twitter);

@@ -32,15 +32,8 @@ reservationsBtn.textContent = 'RESERVATIONS';
 footer.textContent = '© Defi Isaac Github. Inspired by Nobu Sydney PASTPRESENTFUTURE'
 
 
-container.appendChild(header);
-container.appendChild(content);
-container.appendChild(footer);
-header.appendChild(logo)
+container.append(header, content, footer)
+header.append(logo, navList, directions)
 logo.appendChild(location);
-header.appendChild(navList);
-navList.appendChild(menuBtn);
-navList.appendChild(contactHrsBtn);
-navList.appendChild(reservationsBtn);
-header.appendChild(directions);
-content.appendChild(imgDisplay);
-content.appendChild(subContent);
+navList.append(menuBtn, contactHrsBtn, reservationsBtn);
+content.append(imgDisplay, subContent);
