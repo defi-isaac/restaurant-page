@@ -18,7 +18,7 @@ export function reservationPage() {
     const phoneRef = document.createElement('a');
     const reserveBtn = document.createElement('button');
     const reserveRef = document.createElement('a');
-    
+
     name.textContent = 'NOBU SYDNEY';
     location.innerHTML = `1 Barangaroo Avenue <br>Sydney, NSW, 2000`;
     directionRef.textContent = 'Directions';
@@ -45,6 +45,6 @@ export function reservationPage() {
     directions.append(directionRef);
     email.append(emailRef);
     phone.append(phoneRef);
-    reserveBtn.append(reserveRef);
+    reserveBtn.append(reserveRef)
     
 }
