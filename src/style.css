@@ -3,7 +3,10 @@ body {
 }
 
 :root {
-	--logo-gold: #886E42;
+	--logo-gold: rgb(136, 110, 66);
+	--logo-goldTransparent: rgba(136, 110, 66, 0.5);
+	--logo-goldTwo: #dcd7cc;
+	--dark-gold: #5d4e32;
 }
 
 @font-face {
@@ -130,6 +133,9 @@ header > ul li {
     background-size: cover;
     background-position-y: center;
 	transition: all 0.5s ease-in-out;
+	display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .unique > div > h1 {
@@ -142,7 +148,37 @@ header > ul li {
     gap: 1rem;
     margin: 1rem;
     justify-content: space-between;
-	color: #000;
+	color: blach;
+}
+
+.reservation > div {
+	background-color: var(--logo-goldTransparent);
+	color: white;
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 0.7rem;
+	width: 30%;
+}
+
+.reservation > div > p:first-child {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 500
+}
+
+.reservation > div a {
+    color: var(--logo-goldTwo);
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+
+.reservation > div > button {
+	background-color: var(--dark-gold);
+	color: white;
+    border: none;
+    padding: 10px;
+	margin: 1rem 0;
+    font-family: inherit;
 }
 
 footer {

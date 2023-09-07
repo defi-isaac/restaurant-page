@@ -3,10 +3,10 @@ import {imgDisplay, subContent} from './layout.js';
 export function menuPage() {
     
     imgDisplay.style.backgroundImage = 'url("../src/images/food.avif")';
-    imgDisplay.classList.replace('restaurant', 'food');
+    imgDisplay.className = 'imgDisplay food'
 
-    subContent.innerHTML = '';
-    subContent.className = 'unique menu socialMedia';
+    // subContent.innerHTML = '';
+    subContent.className = 'unique menu';
 
     const entree = document.createElement('div');
     entree.classList.add('entree');
